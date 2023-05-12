@@ -1,5 +1,4 @@
 import React from "react";
-import { CartIcon } from "../icons";
 import { useSelector } from "react-redux";
 import Badge from "@mui/material/Badge";
 import LocalMallIcon from "@mui/icons-material/LocalMall";
