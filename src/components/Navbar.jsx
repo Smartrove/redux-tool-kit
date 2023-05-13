@@ -8,7 +8,7 @@ const Navbar = () => {
   //first method
   //   const amount = useSelector((store) => store.cart.amount);
   //second method
-  const { amount } = useSelector((store) => store.cart);
+  const { amount } = useSelector((store) => store.cart );//the cart is the slice name
   return (
     <nav>
       <div className="nav-center">
